@@ -2,11 +2,8 @@ package model;
 
 public class Profesor {
 
-<<<<<<< Updated upstream
+
 	private Integer codigo;
-=======
-	private int cod;
->>>>>>> Stashed changes
 	private String nombre;
 	private String apellido1;
 	private String apellido2;
@@ -16,19 +13,11 @@ public class Profesor {
 	 * getters & setters
 	 */
 	
-<<<<<<< Updated upstream
 	public int getCodigo() {
 		return this.codigo;
 	}
 	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
-=======
-	public int getCod() {
-		return cod;
-	}
-	public void setCod(int cod) {
-		this.cod = cod;
->>>>>>> Stashed changes
 	}
 	public String getNombre() {
 		return nombre;
@@ -61,21 +50,14 @@ public class Profesor {
 	
 	public Profesor(){};
 
-<<<<<<< Updated upstream
 	public Profesor(Integer codigo, String nombre, String apellido1, String apellido2, String dni) {
 		super();
 		this.codigo = codigo;
-=======
-	public Profesor(int cod, String nombre, String apellido1, String apellido2, String dni) {
-		super();
-		this.cod = cod;
->>>>>>> Stashed changes
 		this.nombre = nombre;
 		this.apellido1 = apellido1;
 		this.apellido2 = apellido2;
 		this.dni = dni;
 	}
-<<<<<<< Updated upstream
 	
 	@Override
 	public String toString() {
@@ -129,9 +111,4 @@ public class Profesor {
 			return false;
 		return true;
 	}
-	
-	
-	
-=======
->>>>>>> Stashed changes
 }
