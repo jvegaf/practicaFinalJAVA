@@ -12,7 +12,19 @@ public class Alumno {
     private String dni;
 	
     
-    /**
+    
+    public Alumno() {}
+
+	public Alumno(Integer codigo, String nombre, String apellido1, String apellido2, String dni) {
+		super();
+		this.codigo = codigo;
+		this.nombre = nombre;
+		this.apellido1 = apellido1;
+		this.apellido2 = apellido2;
+		this.dni = dni;
+	}
+	
+	/**
      * getters / setters
      */
     
