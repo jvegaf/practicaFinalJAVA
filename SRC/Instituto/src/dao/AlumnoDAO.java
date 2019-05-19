@@ -1,12 +1,11 @@
 package dao;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.mysql.jdbc.PreparedStatement;
 
 import model.Alumno;
 
@@ -147,7 +146,8 @@ public class AlumnoDAO implements DAO<Alumno, Integer>{
 		}
 		return alumnos;
 	}
-
+	
+	
 	@Override
 	public Alumno obtener(Integer id) throws DAOException {
 		PreparedStatement stat = null;
