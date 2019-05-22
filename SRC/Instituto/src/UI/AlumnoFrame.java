@@ -32,21 +32,7 @@ public class AlumnoFrame extends JFrame {
 	private JButton btnAgregar;
 	
 	
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					AlumnoFrame frame = new AlumnoFrame(new DAOManager("localhost", "usuario", "password", "BD_INSTITUTO"));
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+	
 
 	/**
 	 * Create the frame.
